@@ -405,3 +405,20 @@ hr{
     text-decoration: none;
 
 }
+.column {
+    float: left;
+    width: 200px;
+    margin-bottom: 16px;
+    padding-left: 2000px;
+    padding:100px;
+}
+.image-cart{
+    transition: 0 5.s ;
+    box-shadow: 1px 10px 50px 1px #bc79da;
+}
+.image-cart:hover{
+    border-radius: none;
+    box-shadow: 1px 10px 50px 1px #1d1b1e;
+    cursor: pointer;
+    transform: scale(1.1);
+}
