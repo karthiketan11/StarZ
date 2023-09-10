@@ -1,0 +1,100 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #8ab6ad, #e2ba9e);
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-form
+{
+    width:400px;
+    box-shadow: 0 0 3px 0 gba(0,0,0,0.3);
+    background: #fff;
+    padding: 25px;
+    margin: 5% auto 0;
+    text-align: center;
+    border-radius: 20px;
+}
+.sign-up-form:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 1000px 10px rgba(8,0,0,0.3);
+}
+.sign-up-form h1
+{
+    color:#1c8adb;
+    margin-bottom: 30px;
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #999;
+    outline: none;
+}
+.input-box:hover{
+    cursor: pointer;
+    border-width: 5px;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn
+{
+    cursor: pointer;
+    height: 40px;
+    border-radius: 25px;
+    border-bottom: 10px;
+    border-right: 10px;
+    background-color: #1c8adb;
+    width: 300px;
+}
+.signup-btn:hover{
+    font-size: 18px;
+    background-color: #848be1;
+}
+.instagram-btn
+{
+    cursor: pointer;
+    height: 40px;
+    border-radius: 25px;
+    border-bottom: 10px;
+    border-right: 10px;
+    background-color:pink;
+    width: 300px;   
+}
+.instagram-btn:hover{
+    font-size: 18px;
+    background-color: rgb(212, 114, 130);
+}
+a{
+    text-decoration:none;
+}
+hr
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.or
+{
+    margin-top: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img
+{
+    width: 70px;
+    
+}

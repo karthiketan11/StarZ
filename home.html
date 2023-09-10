@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,400&family=Gruppo&family=Heebo:wght@500&family=Josefin+Sans:wght@700&family=Kanit:wght@300&family=Poppins&family=Tilt+Prism&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,400&family=Gruppo&family=Heebo:wght@500&family=Josefin+Sans:wght@700&family=Kanit:wght@300&family=Poppins&family=Rowdies:wght@300&family=Tilt+Prism&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="./Screenshot 2023-09-09 at 00-32-49 Logo Maker & Brand Builder.png">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="head2" tabindex="2">
+        
+        <!-- <div class="search-container">
+        <input type="search" name="" id="" class="search" placeholder="Search...">
+        <button class="search-button" type="button"><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="20"  class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+        </div>-->
+        <ul class="nav_fill" style="margin: 0;padding: 0;">
+
+            <li>
+                <a href="./home.html" style="color: darkcyan;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                        </svg> Home</a>
+            </li>
+            <li><a href="./about.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                        </svg> About</a>
+            </li>
+            <li><a href="./contact.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                      </svg> Contact</a>
+            </li>
+            <li>
+            <img src="./St.png" alt="" class="logo" ></li>
+            <li>
+            
+            <a href="./login.html" style="position: absolute;right: 0;top: 0;width: 170px; padding-bottom: 20px;margin-top: 5px;"><input type="submit" class="login" value="Login" style="width: 150px;height: 30px;margin-bottom: 5px; border-radius: 10px;"></a>
+            </li>
+             
+
+        </ul>
+    </header>
+    <header class="head1" tabindex="1">
+
+        <p style="padding-right:20px ;">Winter sale 2023</p>
+        <p style="padding-left:3px ;"> Grab <span style="color: rgb(83, 155, 142);">50%-70% off</span> for everything you buy, don"t miss it.</p>
+        <p><span style="padding-bottom: 5px;margin-left: 20px;">Coupon code:</span><span class="s23">WINDERSALE23</span></p>
+        <P><a href="#" style="margin-left: 10px;margin-bottom: 8px;"><button type="button">Redeem now</button></a></P>
+        <span class="material-symbols-outlined" style="margin: -10px 50px 0px 20px;">
+            favorite
+            </span>
+
+    </header>
+    <div class="background">
+        <section class="main">
+            <div class="main11" style="align-items: right;justify-content: right;">
+                <h1 id="h1" style="padding-top: 39px;margin-left: 20px;margin-top: -50px;font-family: 'Exo 2', sans-serif;font-family: 'Josefin Sans' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Welcome to BIG<br> Commerce - Shop <br> Online Now!!</h1><br>
+                <p id="p1" style="margin-left: 20px; font-family:'Rowdies ', 'Arial Narrow', Arial, sans-serif;padding-top: 18px;">
+                    <span class="company">BIG Commerce</span> is an online store that offers great deals on thousands <br>of products for you to explore. Shop and save BIG today with BIG <br>Commrce!
+                </p>
+                
+    </div>
+    </div>
+    <div class="about">
+        <div class="about-img">
+            <a href="#" target="_blank" ><img src="https://i.ibb.co/Prstppv/photo-1605902711834-8b11c3e3ef2f.jpg" alt="photo-1605902711834-8b11c3e3ef2f" border="0" class="img-ab"></a>
+        </div>
+        <div class="about-text">
+            <p><span>About</span><br>
+
+                BIG Commrce is an online store based in Vellore, Tamil Nadu, India. We are dedicated to providing our customers with a seamless shopping experience. With a wide range of products available, we strive to meet the diverse needs and preferences of our valued customers. Our team is committed to delivering exceptional customer service and ensuring that every purchase is a positive and enjoyable experience. Whether you're looking for the latest fashion trends, home essentials, or unique gifts, we've got you covered. Shop with confidence at BIG Commrce and discover the convenience of online shopping at its best.</p>
+        </div>
+    </div>
+
+
+    <br>
+    <h1 id="h2" style="margin-left: 20px;padding-top: 18px; ">Our Services</h1>
+   
+    <section class="image-container">
+        <div class="image1"><img id="im1" src="https://i.ibb.co/f113SHN/photo-1486312338219-ce68d2c6f44d.jpg" alt="photo-1486312338219-ce68d2c6f44d" alt="404">
+            <div class="online" style="display: block;">
+                <p><span style="font-weight: 700;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 20px;">Online Shopping Assistance</span><br>
+                    Expert guidance to enhance your online shopping  <br>experience with our team. <br>
+                <a href="#"><button type="button" class="more">More info</button></a>
+                </p>
+            </div>
+
+        </div>
+        
+        <div class="image2"><img id="im2" src="https://i.ibb.co/Jz4N8Mn/photo-1586880244406-556ebe35f282.jpg" alt="404">
+        <div class="fast" style="display: block;">
+            <p><span style="font-weight: 700;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;">Fast and Reliable Deliveries </span><br>
+                Timely and hassle-free delivery of your purchases right to <br>your doorstep. <br>
+                <a href="#"><button type="button" class="more">More info</button></a></p>
+                
+        </div>
+        </div>
+        <div class="image3"><img id="im3" src="https://i.ibb.co/bPm6SHQ/photo-1475275083424-b4ff81625b60.jpg" alt="404">
+            <div class="secure" style="display: block;">
+                <p><span style="font-weight: 700;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 20px;">24/7 Customer Support </span><br>
+                    Dedicated round-the-clock assistance to address all <br> your queries and concerns. <br>
+                    <a href="#"><button type="button" class="more">More info</button></a></p>
+        </div>
+    </section>
+
+    <!--<div class="FSC1">
+      <section class="FSC" id="f">
+        <img src="./sync.png" alt="" width="20px" class="i">
+        <i class="bi bi-shield-lock" style="width: 20px;height: 20px;"></i>
+        <i class="bi bi-umbrella" width="20" height="20" align="center"></i>
+      </section>
+      <section class="FSC" style="margin-top: 30px;padding-left: 10px;">
+        <div class="free">Free shipping and return</div>
+      <div class="security">Secured payments</div>
+      <div class="customer">Customer service</div>
+      </section></div>-->
+    <div class="free-trial" style="margin-top: 30px;">
+        <marquee behavior="alternate" direction="left" class="flow"><a href="#" class="flow-container">Start your free trial &rarr;    Start your free trial &rarr;    Start your free trial &rarr;  Start your free trial &rarr;    Start your free trial &rarr;    Start your free trial &rarr;    Start your free trial &rarr;    Start your free trial &rarr;    Start your free trial &rarr;</a></marquee>
+       
+    </div>
+    <section class="item-img"> 
+        <h1 id="h2" style="margin-top: 15px; margin-bottom: 30px;">For all categories</h1>
+        <div class="item-imgg">
+        <img src="https://i.ibb.co/Lp89FGk/MG-8831-6983b4ff-5d28-4d59-a03e-f55bce226ad7-900x.webp" alt="MG-8831-6983b4ff-5d28-4d59-a03e-f55bce226ad7-900x" border="0" style="width: 450px;height: 450px;">
+        <img src="https://i.ibb.co/LCp0Bnt/193eb0768ad7b3e5422dd2f155883d3d.jpg" alt="193eb0768ad7b3e5422dd2f155883d3d" border="0" style="width: 450px;height: 450px;">
+        <img src="https://i.ibb.co/7p2h9m1/f6d3dc97887e05920d7f870c735599cc.jpg" alt="f6d3dc97887e05920d7f870c735599cc" border="0" style="width: 450px;height: 450px;">
+        <img src="" alt="" style="width: 450px;height: 450px;">
+        </div>
+        <div class="item-img">  
+            
+            <img src="https://m.media-amazon.com/images/I/71M5Y9eocIL._UL1500_.jpg" alt="" style="width: 450px;height: 450px;">
+            <img src="" alt="" style="width: 450px;height: 450px;border-color: #ff0000;border-width: 5px;">
+            <img src="" alt="" style="width: 450px;height: 450px;">
+        </div>
+        <section style="display: inline;float:right;">
+        <div class="item-img">
+            <div style="background-color: #aee9ff;">
+                
+            <div>
+                 <img src="https://m.media-amazon.com/images/I/71kPPQMKboL._UY879_.jpg" alt="" style="width: 450px;height: 450px;">
+            </div>
+            <div>
+
+            </div>
+            </div>
+
+            <div style="background-color: #aee9ff;">
+                
+            <div>
+                <img src="https://m.media-amazon.com/images/I/71Pz4+WEekL._UY879_.jpg" alt="" style="width: 450px;height: 450px;">
+             </div>
+            <div>
+
+            </div>
+            </div>
+            <div style="background-color: #aee9ff;">
+                
+            <div>
+                <img src="https://m.media-amazon.com/images/I/71qoNY3BPZL._UX679_.jpg" alt="" style="width: 400x;height: 400px;">
+            </div>
+            <div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+    <div class="sign">
+    <p style="padding-top: 40px;font-size: 58px;">See all that you can accomplish with BIG Commerce</p>
+    <a href="./signup.html"><input type="submit" value="Signup free" class="box-sign"></a> <a href="#"><input type="submit" value="Talk to BC" class="box-sign" style="background-color: rgb(77, 118, 188);margin-left: 20px;"></a>
+    </div>
+    <br>
+    <footer style="background-color: black;">
+        <div class="contact-container">
+           <div class="contact-text">
+            <p><span style="font-weight: 700;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;">Contact Us Today </span><br><br>
+
+                &nbsp;&nbsp;&nbsp; Complete the form below to get in touch with us. <br> We are here to help and answer any questions <br> you may have about our products or services.</p>
+           </div>
+           <div class="contact-form" >
+            <form action="get" style="background-color: black;display:inherit;">
+
+                    <table border="0">
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Name" required></td>
+                            <td colspan="2"><input type="text" placeholder="Email" readonly></td>
+                        </tr>
+                        <tr>
+                            <th  colspan="2">Message</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><textarea name="" id="" cols="30" rows="" placeholder="Message..."></textarea></td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center" style="padding-top: 10px;"><input type="submit" name="" id="" value="send message" style="padding-bottom: 2px; border-radius: 10px;transition: cubic-bezier(0.075, 0.82, 0.165, 1);"></td>
+                        </tr>
+                    </table>
+            </form>
+           </div>
+        </div>
+        <hr>
+        <div class="foot">
+            <div>
+                <caption> BIG Commerce</caption>
+                <table border="0">
+                    <tr>
+                        <td><a href="#">Who We Are</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Join Our Team</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Terms &amp; Conditions</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">We Respect Your Privacy</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Fees &amp; Payments</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Returns &amp; Refunds Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Promotions Terms &amp; Conditions</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <caption>Help</caption>
+                <table border="0">
+                    <tr>
+                        <td><a href="#">Track Your Order</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Frequently Asked Questions</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Returns</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Cancellations</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Payments</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Customer Care</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">How Do I Redeem My Coupon</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <caption>Shop by</caption>
+                <table border="0">
+
+                    <tr>
+                        <td><a href="#">Men</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Women</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Kids</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Indie</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Stores</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">New Arrivals</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Brand Directory</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Home</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Collections</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <caption>Follow us on</caption>
+                <table border="0">
+                    <tr>
+                        <td><a href="https://www.facebook.com/">Facebook</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.instagram.com/">Instagram</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.google.com/">Google</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.twitter.com/">Twitter</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="foot1">
+            <hr style="color: rgb(38, 223, 223);height: 15px;">
+            <a href="#"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-beat fa-2x" style="color: #ff00ff;"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-beat fa-2x" style="color: #aee9ff;"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-beat fa-2x" style="color: #ff0000;"></i></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin fa-beat fa-2x" style="color: #2e497c;"></i></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp fa-beat fa-2x" style="color: #26d202;"></i></i></a>
+            <a href="#">
+          <img class="play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="width: 200px;height: 80px; margin-left: 600px;">
+        </a>
+            <a href="#">
+          <img class="play" src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png" alt="Download on the App Store" style="border-radius: 10px;">
+      </a>
+            <div>
+                <p align="center" style="font-size: 100;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">© 2023 BIG Commerce. All rights reserved.</p>
+            </div>
+            <br>
+        </div>
+    </footer>
+</body>
+
+</html>
